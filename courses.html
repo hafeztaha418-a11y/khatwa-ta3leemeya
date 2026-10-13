@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css" integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body dir="rtl">
+    <header class="header fixed-top" id="mainNav">
+          <nav class="container basic-nav">
+            <div class="menu-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+            <a href="" class="logo-nav"><img src="./img/cda18568-cb13-443c-bdac-35f7ece4639c.png" alt=""></a>
+            <div class="main-nav">
+                <ul class="navbar-link">
+                    <li class="nav-item">
+                        <a href="./index.html" class="link-main">الرئيسية</a>
+                    </li>
+                      <li class="nav-item">
+                        <a href="./about.html" class="link-main">معلومات عنا </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./courses.html" class="link-main">الدورات</a>
+                    </li>
+                      <li class="nav-item">
+                        <a href="./contact.html" class="link-main">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-nav">
+                <a href="">سجل معنا </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <section class="courses">
+        <div class="container">
+            <div class="title-Featured mb-5">
+                <h2>الدورات</h2>
+                <p>هنا ستجد أفضل الدورات التعليمية التي حازت على إعجاب الطلاب.</p>
+            </div>
+             <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="All-tab" data-toggle="tab" data-target="#All"
+                        type="button" role="tab" aria-controls="All" aria-selected="true">الكل</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="benigeer-tab" data-toggle="tab" data-target="#benigeer" type="button"
+                        role="tab" aria-controls="benigeer" aria-selected="false">متقدم</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="medrate-tab" data-toggle="tab" data-target="#medrate"
+                    type="button" role="tab" aria-controls="medrate-tab" aria-selected="false">متوسط</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="advanced-tab" data-toggle="tab" data-target="#advanced"
+                    type="button" role="tab" aria-controls="advanced-tab" aria-selected="false">مبتدئ</button>
+                </li>
+             </ul> 
+            <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="All-tab">
+            <div class="row cards-courses">
+              <div class="col-4">
+                <div class="card-Featured">
+                <div class="Featured-img">
+                    <img src="./img/photo-1605711285791-0219e80e43a3.avif" alt="">
+                    <div class="app-img app1">الأكثر مبيعًا</div>
+                    <div class="app-nub nub1" style="background-color: #28a745;">$89</div>
+                </div>
+                <div class="content-Featured">
+                    <div class="meta-Featured">
+                    <span class="level">برمجة</span>
+                    <span class="duration">متقدم</span>
+                    </div>
+                    <h3><a href="#">تطوير جافا سكريبت المتقدم</a></h3>
+                    <p>بناء تطبيقات الويب باستخدام React وNode.js مع تركيز على الأداء وتجربة المستخدم.</p>
+                    <div class="Featured-stats">
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                        <span>(4.5)</span>
+                    </div>
+                    <div class="students"><i class="bi bi-people-fill"></i> 342 طالب</div>
+                    </div>
+                    <hr>
+                    <div class="instructor">
+                    <img src="./img/photo-1667655861998-46fe4c29a4cf.avif" class="instructor-img" alt="">
+                    <div class="instructor-info">
+                        <h6>جون سميث</h6><span>خبير ويب</span>
+                    </div>
+                    </div>
+                    <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+                </div>
+                </div>
+              </div>
+              <div class="col-4">
+               <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1513258496099-48168024aec0.avif" class="w-100" alt="Course">
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تصميم</span>
+                  <span class="duration">مبتدئ</span>
+                </div>
+                <h3><a href="#">أساسيات تصميم UI/UX</a></h3>
+                <p>مدرب على أدوات التصميم الحديثة مثل Figma وAdobe XD مع تطبيق عملي على مشاريع حقيقية.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 324 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1615109398623-88346a601842.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>د/ أحمد محرم</h6><span>خبير تصميم</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+               </div>
+              </div>
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1516321318423-f06f85e504b3.avif" class="w-100" alt="Course">
+                <div class="app-img app1" style="background-color: #ff6b35;">جديد</div>
+                <div class="app-nub nub1" style="background-color: #28a745;">$149</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تجارة</span>
+                  <span class="duration">متوسط</span>
+                </div>
+                <h3><a href="#">استراتيجيات التسويق الرقمي</a></h3>
+                <p>إدارة الحملات الإعلانية على فيسبوك وجوجل، ساعد علامات تجارية على مضاعفة مبيعاتها.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 350 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1480455624313-e29b44bbfde1.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>م / دافيد</h6><span>تصميم جرافيك</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+            </div>
+            <div class="row cards-courses">
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1599008633840-052c7f756385.avif" class="w-100" alt="Course">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">برمجة</span>
+                  <span class="duration">متقدم</span>
+                </div>
+                <h3><a href="#">التعلم الآلي باستخدام بايثون</a></h3>
+                <p>الذكاء الاصطناعي وتعلم الآلة، بخبرة واسعة في تطوير نماذج تنبؤية عملية.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 400 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1579038773867-044c48829161.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>م/ عمر محمد </h6><span>لغة الآلة،</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+              <div class="col-4">
+               <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1510531704581-5b2870972060.avif" class="w-100" alt="Course">
+                <div class="app-img app1">شائع</div>
+                <div class="app-nub nub1" style="background-color: #28a745;">$59</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تسويق</span>
+                  <span class="duration">مبتدئ</span>
+                </div>
+                <h3><a href="#">التسويق عبر الانترنت</a></h3>
+                <p>إدارة الحملات الإعلانية على فيسبوك وجوجل، ساعد علامات تجارية على مضاعفة مبيعاتها.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 350 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/premium_photo-1674854858248-8987c02e74cf.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>أ/مايكل أوين</h6><span>تسويق رقمي</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+               </div>
+              </div>
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1448932223592-d1fc686e76ea.avif" alt="">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تصميم</span>
+                  <span class="duration">متوسط</span>
+                </div>
+                <h3><a href="#">احتراف تصميم الجرافيك</a></h3>
+                <p>معتمد في مجال تصميم الجرافيك والهوية البصرية، شارك في تنفيذ مشاريع لعلامات تجارية معروفة.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.2)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 522 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1667655861998-46fe4c29a4cf.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>أ/علي مراد</h6><span>مصمم جرافيك</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+            </div>
+            <div class="row cards-courses">
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1516397281156-ca07cf9746fc.avif" alt="">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">برمجة</span>
+                  <span class="duration">متقدم</span>
+                </div>
+                <h3><a href="#">تحليل البيانات</a></h3>
+                <p>الذكاء الاصطناعي وتعلم الآلة، بخبرة واسعة في تطوير نماذج تنبؤية عملية</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 400 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1615109398623-88346a601842.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>د/أحمد مصطفى</h6><span>محلل بيانات</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+              <div class="col-4">
+               <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1454165804606-c3d57bc86b40.avif" alt="">
+                <div class="app-img app1">شائع</div>
+                <div class="app-nub nub1" style="background-color: #28a745;">$59</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">برمجة</span>
+                  <span class="duration">متوسط</span>
+                </div>
+                <h3><a href="#">تعلم هندسة البرمجيات</a></h3>
+                <p>بناء تطبيقات الويب باستخدام React وNode.js مع تركيز على الأداء وتجربة المستخدم.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 350 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1590086782792-42dd2350140d.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>م/سامر عمر</h6><span>مهندس برمجيات</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+               </div>
+              </div>
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/webfactory-ltd-CzShzocZtW0-unsplash.jpg" alt="">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تشهير</span>
+                  <span class="duration">مبتدئ</span>
+                </div>
+                <h3><a href="#">تعلم الظهور على الانترنت وزيادة المشهدات</a></h3>
+                <p>العمل على تحسن الوصول واشهارك من خلل مواقع التواصل الاجتماعي والعمل على الترويج لاعمالك</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.2)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 522 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1480455624313-e29b44bbfde1.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>اكرم يوسف </h6><span>بلوجر</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="tab-pane fade" id="advanced" role="tabpanel" aria-labelledby="advanced-tab">
+               <div class="row cards-courses">
+               <div class="col-4">
+               <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1510531704581-5b2870972060.avif" class="w-100" alt="Course">
+                <div class="app-img app1">شائع</div>
+                <div class="app-nub nub1" style="background-color: #28a745;">$59</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تسويق</span>
+                  <span class="duration">مبتدئ</span>
+                </div>
+                <h3><a href="#">التسويق عبر الانترنت</a></h3>
+                <p>إدارة الحملات الإعلانية على فيسبوك وجوجل، ساعد علامات تجارية على مضاعفة مبيعاتها.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 350 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/premium_photo-1674854858248-8987c02e74cf.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>أ/مايكل أوين</h6><span>تسويق رقمي</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+               </div>
+               </div>
+               <div class="col-4">
+               <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1513258496099-48168024aec0.avif" class="w-100" alt="Course">
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تصميم</span>
+                  <span class="duration">مبتدئ</span>
+                </div>
+                <h3><a href="#">أساسيات تصميم UI/UX</a></h3>
+                <p>مدرب على أدوات التصميم الحديثة مثل Figma وAdobe XD مع تطبيق عملي على مشاريع حقيقية.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 324 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1615109398623-88346a601842.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>د/ أحمد محرم</h6><span>خبير تصميم</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+               </div>
+                </div>
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/webfactory-ltd-CzShzocZtW0-unsplash.jpg" alt="">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تشهير</span>
+                  <span class="duration">مبتدئ</span>
+                </div>
+                <h3><a href="#">تعلم الظهور على الانترنت وزيادة المشهدات</a></h3>
+                <p>العمل على تحسن الوصول واشهارك من خلل مواقع التواصل الاجتماعي والعمل على الترويج لاعمالك</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.2)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 522 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1480455624313-e29b44bbfde1.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>اكرم يوسف </h6><span>بلوجر</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+               </div> 
+             </div>
+             <div class="tab-pane fade" id="benigeer" role="tabpanel" aria-labelledby="benigeer-tab">
+               <div class="row cards-courses">
+                <div class="col-4">
+                <div class="card-Featured">
+                <div class="Featured-img">
+                    <img src="./img/photo-1605711285791-0219e80e43a3.avif" alt="">
+                    <div class="app-img app1">الأكثر مبيعًا</div>
+                    <div class="app-nub nub1" style="background-color: #28a745;">$89</div>
+                </div>
+                <div class="content-Featured">
+                    <div class="meta-Featured">
+                    <span class="level">برمجة</span>
+                    <span class="duration">متقدم</span>
+                    </div>
+                    <h3><a href="#">تطوير جافا سكريبت المتقدم</a></h3>
+                    <p>بناء تطبيقات الويب باستخدام React وNode.js مع تركيز على الأداء وتجربة المستخدم.</p>
+                    <div class="Featured-stats">
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                        <span>(4.5)</span>
+                    </div>
+                    <div class="students"><i class="bi bi-people-fill"></i> 342 طالب</div>
+                    </div>
+                    <hr>
+                    <div class="instructor">
+                    <img src="./img/photo-1667655861998-46fe4c29a4cf.avif" class="instructor-img" alt="">
+                    <div class="instructor-info">
+                        <h6>جون سميث</h6><span>خبير ويب</span>
+                    </div>
+                    </div>
+                    <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+                </div>
+                </div>
+                </div>
+                 <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1599008633840-052c7f756385.avif" class="w-100" alt="Course">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">برمجة</span>
+                  <span class="duration">متقدم</span>
+                </div>
+                <h3><a href="#">التعلم الآلي باستخدام بايثون</a></h3>
+                <p>الذكاء الاصطناعي وتعلم الآلة، بخبرة واسعة في تطوير نماذج تنبؤية عملية.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 400 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1579038773867-044c48829161.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>م/ عمر محمد </h6><span>لغة الآلة،</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+                </div>
+                <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1516397281156-ca07cf9746fc.avif" alt="">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">برمجة</span>
+                  <span class="duration">متقدم</span>
+                </div>
+                <h3><a href="#">تحليل البيانات</a></h3>
+                <p>الذكاء الاصطناعي وتعلم الآلة، بخبرة واسعة في تطوير نماذج تنبؤية عملية</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 400 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1615109398623-88346a601842.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>د/أحمد مصطفى</h6><span>محلل بيانات</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+                </div>
+               </div>
+             </div>
+             <div class="tab-pane fade" id="medrate" role="tabpanel" aria-labelledby="medrate-tab">
+               <div class="row cards-courses">
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1448932223592-d1fc686e76ea.avif" alt="">
+                <div class="app-nub nub1" style="background-color: #28a745;">$199</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تصميم</span>
+                  <span class="duration">متوسط</span>
+                </div>
+                <h3><a href="#">احتراف تصميم الجرافيك</a></h3>
+                <p>معتمد في مجال تصميم الجرافيك والهوية البصرية، شارك في تنفيذ مشاريع لعلامات تجارية معروفة.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.2)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 522 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1667655861998-46fe4c29a4cf.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>أ/علي مراد</h6><span>مصمم جرافيك</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+              <div class="col-4">
+              <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1516321318423-f06f85e504b3.avif" class="w-100" alt="Course">
+                <div class="app-img app1" style="background-color: #ff6b35;">جديد</div>
+                <div class="app-nub nub1" style="background-color: #28a745;">$149</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">تجارة</span>
+                  <span class="duration">متوسط</span>
+                </div>
+                <h3><a href="#">استراتيجيات التسويق الرقمي</a></h3>
+                <p>إدارة الحملات الإعلانية على فيسبوك وجوجل، ساعد علامات تجارية على مضاعفة مبيعاتها.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 350 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1480455624313-e29b44bbfde1.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>م / دافيد</h6><span>تصميم جرافيك</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+              </div>
+              </div>
+              <div class="col-4">
+               <div class="card-Featured">
+              <div class="Featured-img">
+                <img src="./img/photo-1454165804606-c3d57bc86b40.avif" alt="">
+                <div class="app-img app1">شائع</div>
+                <div class="app-nub nub1" style="background-color: #28a745;">$59</div>
+              </div>
+              <div class="content-Featured">
+                <div class="meta-Featured">
+                  <span class="level">برمجة</span>
+                  <span class="duration">متوسط</span>
+                </div>
+                <h3><a href="#">تعلم هندسة البرمجيات</a></h3>
+                <p>بناء تطبيقات الويب باستخدام React وNode.js مع تركيز على الأداء وتجربة المستخدم.</p>
+                <div class="Featured-stats">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    <span>(4.5)</span>
+                  </div>
+                  <div class="students"><i class="bi bi-people-fill"></i> 350 طالب</div>
+                </div>
+                <hr>
+                <div class="instructor">
+                  <img src="./img/photo-1590086782792-42dd2350140d.avif" class="instructor-img" alt="">
+                  <div class="instructor-info">
+                    <h6>م/سامر عمر</h6><span>مهندس برمجيات</span>
+                  </div>
+                </div>
+                <a href="./html/coursedetails.html" class="btn-Featured">اشترك الآن</a>
+              </div>
+               </div>
+              </div>
+              </div>
+             </div>
+
+            </div>
+
+        </div>
+       </section> 
+    </main>
+    <footer class="footer bg-primary text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <h2 class="title-footer mb-3"><a href="">خطوة تعليمية</h2>
+                <p class="para-footer">
+                خطوة تعليمية منصة عربية للتعلم عبر الإنترنت، هدفنا تبسيط المعرفة وجعلها في متناول الجميع.
+                </p>
+                <div class="d-flex gap-3 mt-3">
+                <a href="#" class="footer-icon"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-icon"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="footer-icon"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4">
+                <h5 class="title-list mb-3">الروابط المهمة</h5>
+                <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">الرئيسية</a></li>
+                <li><a href="#" class="footer-link">معلومات عنا</a></li>
+                <li><a href="#" class="footer-link">الدورات</a></li>
+                <li><a href="#" class="footer-link">التواصل</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="title-list mb-3">خدمتنا</h5>
+                <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">تصميم المواقع</a></li>
+                <li><a href="#" class="footer-link">تطوير المواقع الإلكترونية</a></li>
+                <li><a href="#" class="footer-link">إدارة المنتجات</a></li>
+                <li><a href="#" class="footer-link">تصميم الجرافيك</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <h5 class="title-list mb-3">تواصل معنا</h5>
+                <div class="adress-para">
+                <p class="mb-1">طنطا - شارع المحافظة</p>
+                <p class="mb-1">الغربية, NY 535022</p>
+                <p class="mb-1">مصر</p>
+                </div>
+
+                <p class="mb-1" style="color: #063c6c;"><strong>موبايل: </strong>01223617616</p>
+                <p class="mb-1" style="color: #063c6c;"><strong>ايميل: 0</strong>hafeztaha418@gmail.com</p>
+            </div>
+            </div>
+        </div>
+        <div class="footer-bottom bg-opacity-25 bg-primary text-center py-3 mt-4">
+            <div class="container">
+            <span style="color: #063c6c;">© حقوق الطبع <strong>خطوة تعليمية</strong> جميع الحقوق محفوظة</span>
+            <br>
+            <span style="color: #063c6c;">صمم بواسطة <a href="" class="text-decoration-none" style="color: #063c6c;">طه الرفاعي</a></span>
+            </div>
+        </div>
+        <a href="#" class="back-to-top position-absolute end-0 me-4 mb-2" style="bottom: 10px;"><i class="bi bi-arrow-up-short fs-3 text-white-50"></i></a>
+    </footer>
+<script src="./js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
